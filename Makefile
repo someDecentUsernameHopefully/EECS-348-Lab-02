@@ -9,3 +9,6 @@ isEven.o: isEven.h isEven.c
 
 isOdd.o: isOdd.h isOdd.c
 	gcc -c isOdd.h isOdd.c -Wall
+
+clean:
+	rm -f *.o
